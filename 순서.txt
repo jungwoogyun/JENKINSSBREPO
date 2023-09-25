@@ -1,0 +1,14 @@
+----------------------------------------------------------
+//reply 테이블
+----------------------------------------------------------
+CREATE TABLE `tbl_reply` (
+  `rno` int NOT NULL AUTO_INCREMENT,
+  `bno` int NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `content` text NOT NULL,
+좋아요,count
+싫어요 count
+  `regdate` date DEFAULT NULL,
+  PRIMARY KEY (`rno`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+

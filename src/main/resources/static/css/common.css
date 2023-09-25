@@ -1,0 +1,29 @@
+*{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    padding: 0px;margin:0px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+
+/* 전체 */
+.wrapper{
+
+}
+
+/* 헤더 */
+.wrapper>header{}
+.wrapper>header>.top-header{}
+.wrapper>header>nav{}
+
+/* 메인 */
+.wrapper>main{}
+.wrapper>main>section{}
+
+/* 푸터*/
+.wrapper>footer{}
+
